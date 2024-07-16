@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tick Tack toe</string>
+    <string name="start">Start</string>
+    <string name="tick_tak_toe">Tick Tak Toe!</string>
+    <string name="whispers_in_the_walls_grew_louder_each_night_until_they_finally_started_calling_my_name">Whispers in the walls grew louder each night, until they finally started calling my name.</string>
+    <string name="help">Help</string>
+    <string name="exit">Exit</string>
+</resources>

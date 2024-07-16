@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game"
+    tools:context=".MainActivity">
+
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Tv_Player1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#AC1B4C"
+        android:text="Player X :"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#F1D9DD"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#ED2B6D"/>
+    <TextView
+        android:id="@+id/Tv_Player2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#1BC677"
+        android:text="Player O :"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#F1D9DD"
+        android:backgroundTint="#068C67"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:id="@+id/gameStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aladin"
+        android:text="Player X's turn"
+        android:textColor="#C3124F"
+        android:textSize="35sp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/button00"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:textSize="40sp"
+            android:textColor="#801B2C"
+            android:backgroundTint="#F495A5"
+            />
+
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:textColor="#EAC7CD"
+            android:textSize="40sp"
+            android:backgroundTint="#EA415E"/>
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:textSize="40sp"
+            android:textColor="#801B2C"
+            android:backgroundTint="#F495A5"/>
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:textColor="#EAC7CD"
+            android:textSize="40dp"
+            android:backgroundTint="#EA415E"/>
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:textSize="40sp"
+            android:textColor="#801B2C"
+            android:backgroundTint="#F495A5"/>
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:textSize="40sp"
+            android:textColor="#EAC7CD"
+            android:backgroundTint="#EA415E"/>
+
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:textColor="#801B2C"
+            android:textSize="40sp"
+            android:backgroundTint="#F495A5"/>
+
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:textSize="40sp"
+            android:textColor="#EAC7CD"
+
+            android:backgroundTint="#EA415E"/>
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:textSize="40sp"
+            android:textColor="#801B2C"
+            android:backgroundTint="#F495A5"/>
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Game"
+        android:textColor="#DFC5CE"
+        android:backgroundTint="#AC0723"/>
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
